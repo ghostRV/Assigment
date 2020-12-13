@@ -7,13 +7,13 @@
     android:layout_height="match_parent">
 
     <Button
-        android:id="@+id/btnToKillingEve"
+        android:id="@+id/btnToAlteredCarbon"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="165dp"
         android:layout_marginTop="32dp"
         android:layout_marginEnd="165dp"
-        android:text="to Killing Eve"
+        android:text="to Altered Carbon"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
@@ -30,7 +30,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/btnToKillingEve" />
+        app:layout_constraintTop_toBottomOf="@id/btnToAlteredCarbon" />
 
     <Button
         android:id="@+id/btnToTheBoys"

@@ -4,10 +4,7 @@ import android.os.Bundle
 import androidx.fragment.app.Fragment
 import android.view.View
 import com.deevrv.assigment.R
-import com.deevrv.assigment.ui.Detail.KillingEveFragment
-import com.deevrv.assigment.ui.Detail.QueensGambitFragment
-import com.deevrv.assigment.ui.Detail.TheBoysFragment
-import com.deevrv.assigment.ui.Detail.UmbrellaAcademyFragment
+import com.deevrv.assigment.ui.Detail.*
 import kotlinx.android.synthetic.main.fragment_serial_main.*
 
 // TODO: Rename parameter arguments, choose names that match
@@ -61,10 +58,10 @@ class SerialMainFragment : Fragment(R.layout.fragment_serial_main) {
                 .addToBackStack("TheBoysFragment")
                 .commit()
         }
-        btnToKillingEve.setOnClickListener(){
+        btnToAlteredCarbon.setOnClickListener(){
             requireFragmentManager().beginTransaction()
-                .replace(R.id.container, KillingEveFragment())
-                .addToBackStack("KillingEveFragment")
+                .replace(R.id.container, AlteredCarbonFragment())
+                .addToBackStack("AlteredCarbonFragment")
                 .commit()
         }
         btnToQueensGambit.setOnClickListener(){
