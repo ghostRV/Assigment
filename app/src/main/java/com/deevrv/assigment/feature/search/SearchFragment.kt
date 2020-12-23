@@ -20,8 +20,6 @@ class SearchFragment : Fragment(R.layout.fragment_search), SearchView {
         presenter.attachView(this)
 
         initListeners()
-
-
     }
 
     private fun initListeners() {
@@ -71,6 +69,3 @@ class SearchFragment : Fragment(R.layout.fragment_search), SearchView {
         Toast.makeText(requireContext(), "Ошибка в поле $name", Toast.LENGTH_LONG).show()
     }
 }
-
-
-

@@ -5,63 +5,19 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <Button
-        android:id="@+id/btnToAlteredCarbon"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="to Altered Carbon"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.31" />
-
-    <Button
-        android:id="@+id/btnToQueensGambit"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="to Queens Gambit"
-
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.39" />
-
-    <Button
-        android:id="@+id/btnToTheBoys"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-
-        android:text="to The Boys"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <Button
-        android:id="@+id/btnToUmbrellaAcademy"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-
-        android:text="to Umbrella Academy"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.19" />
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvSerialMains"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
 
     <Button
         android:id="@+id/btnToSearch"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-
         android:text="Searsh"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.8" />
-
-
+        app:layout_constraintVertical_bias="0.99" />
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,10 +1,8 @@
 package com.deevrv.assigment
 
-import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import com.deevrv.assigment.ui.SerialMainFragment
-import kotlinx.android.synthetic.main.activity_main.*
+import com.deevrv.assigment.feature.top.ui.SerialMainFragment
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -14,7 +12,7 @@ class MainActivity : AppCompatActivity() {
         val fragmentManager = supportFragmentManager
 
         fragmentManager.beginTransaction()
-            .add(R.id.container,SerialMainFragment())
+            .add(R.id.container, SerialMainFragment())
             .commit()
 
     }
